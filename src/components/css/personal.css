@@ -1,0 +1,111 @@
+.personal-container, .edu-container , .pro-container , .skills-container , .ach-container{
+    height: 92vh;
+
+    display: flex;
+    padding-top: 4vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-bottom: 6vh;
+}
+
+
+
+.final{
+    margin-left: 25rem;
+    width: 60vw;
+    border: 2px solid black;
+}
+
+.final .template-C-preview-container, .template-A-preview-container, .template-B-preview-container,.template-D-preview-container{
+    width: 100%;
+
+}
+
+.bahr:hover{
+    transform: scale(1.031);
+}
+.bahr{
+      transition: transform 2s;
+    width: 40vw;
+    border: 1px solid black;
+    background: none;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+        border: 1px solid rgb(245, 238, 237);
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: 1px ;
+}
+.input-data, .edu-data , .pro-data , .skills-data , .ach-data{
+       width: 42vw;
+    /* border: 1px solid black; */
+    background: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+
+}
+
+.input-data input:hover{
+    color: white;
+    background-color: rgba(75, 64, 64, 0.582);
+}
+
+.ach-data div{
+    margin-top: 2rem;
+}
+
+ .edu-data div {
+    margin-top: 2rem;
+}
+.input-data  div{
+    margin-top: 2rem;
+}
+.skills-data div{
+    margin-top: 2rem;
+}
+.pro-data div{
+    margin-top: 2rem;
+}
+.input-data  button{
+    
+    margin-left: 2.1rem;
+    width: 5rem;
+}
+
+.ach-container button{
+    margin: 2.1rem;
+    width: 9rem;
+}
+.skills-data button{
+    margin: 2.1rem;
+    width: 7rem;
+}
+
+.edu-data button{
+    margin-left: 2.1rem;
+    width: 5rem;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: white;
+}
+
+.pro-data button{
+    width: 7rem;
+    margin-left: 2.1rem;
+}
+
+.input-data button:hover{
+    background-color: black;
+    color: white;
+}
+
+.input-data h2 ,  .pro-data h2 ,  .edu-data h2 , .skills-data h2 , .ach-container h2 {
+   padding: 0;
+   color: rgb(5, 32, 73);
+}
+
+
+.dark h2{
+    color: blanchedalmond;
+}
